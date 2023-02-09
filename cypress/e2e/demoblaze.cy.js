@@ -6,7 +6,7 @@ describe('demoblaze', () => {
 
   
 
-  it('should allow register new user', () => {
+  it('should allow register, login, add to cart', () => {
 
     cy.visit('/');
     cy.get('#signin2')
